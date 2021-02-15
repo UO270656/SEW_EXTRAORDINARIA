@@ -1,4 +1,4 @@
-# # Software y Estándares para la Web
+# Software y Estándares para la Web
 
 ## Descripción
 
