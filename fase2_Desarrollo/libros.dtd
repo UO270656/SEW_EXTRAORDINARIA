@@ -1,0 +1,21 @@
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro  (fecha_publicacion, paginas, editorial, descripcion, target, autor, tiendas, recomendacion, bibliotecas)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT target (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT tiendas (tienda+)>
+<!ELEMENT tienda (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT bibliotecas (biblioteca+)>
+<!ELEMENT biblioteca (long_biblioteca, lat_biblioteca, alt_biblioteca)>
+<!ELEMENT long_biblioteca (#PCDATA)>
+<!ELEMENT lat_biblioteca (#PCDATA)>
+<!ELEMENT alt_biblioteca (#PCDATA)>
+<!ATTLIST libro nombre CDATA #REQUIRED>
+<!ATTLIST libro tipo CDATA #REQUIRED>
+<!ATTLIST libro dificultad CDATA #REQUIRED>
+<!ATTLIST biblioteca nombre CDATA #REQUIRED>
+<!ATTLIST alt_biblioteca unidades CDATA #REQUIRED>

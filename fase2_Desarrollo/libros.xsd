@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="libros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="libro" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fecha_publicacion" />
+        <xs:element ref="paginas" />
+        <xs:element ref="editorial" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="target" />
+        <xs:element ref="autor" />
+        <xs:element ref="tiendas" />
+        <xs:element ref="recomendacion" />
+        <xs:element ref="bibliotecas" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+      <xs:attribute name="tipo" type="xs:string" use="required" />
+      <xs:attribute name="dificultad" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fecha_publicacion" type="xs:string" />
+  <xs:element name="paginas" type="xs:int" />
+  <xs:element name="editorial" type="xs:string" />
+  <xs:element name="descripcion" type="xs:string" />
+  <xs:element name="target" type="xs:string" />
+  <xs:element name="autor" type="xs:string" />
+  <xs:element name="tiendas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="tienda" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tienda" type="xs:string" />
+  <xs:element name="recomendacion" type="xs:int" />
+  <xs:element name="bibliotecas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="biblioteca" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="long_biblioteca" />
+        <xs:element ref="lat_biblioteca" />
+        <xs:element ref="alt_biblioteca" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="long_biblioteca" type="xs:float" />
+  <xs:element name="lat_biblioteca" type="xs:float" />
+  <xs:element name="alt_biblioteca">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
