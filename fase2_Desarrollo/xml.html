@@ -13,7 +13,7 @@
     <script src="script.js"></script>
   </head>
 
-  <body>
+  <body onload="documento.cargarArchivos()">
     <!-- Datos con el contenidos que aparece en el navegador -->
     <header>
       <h1 class="principal">
@@ -43,29 +43,19 @@
       </nav>
     </header>
     <section>
-      <h2>¿Que es BOOKSEW?</h2>
+      <h2>Libros en XML</h2>
       <div>
+        <label for="subirArchivos">Selecione archivos xml para validar</label>
         <p>
-          BOOKSEW es una página web que funciona como una biblioteca donde se
-          pueden guardar los libros leídos por el usuario. Para poder guardar un
-          libro, el usuario deberá especificar, como mínimo, el título y el
-          autor del libro.
+          <input
+            id="subirArchivos"
+            type="file"
+            name="Elegir archivos"
+            onchange="documento.cargarArchivos()"
+          />
         </p>
-        <p>
-          Tambien se pueden guardar otros datos como: una imagen para la
-          portada, una reseña, una calificación, una sinopsis, el ISBN, un
-          enlace al epub (archivo) o las diferentes temáticas del libro. De un
-          libro también se puede añadir en que bibliotecas públicas se pueden
-          encontrar en físico, aunque, como los anteriores datos, es opcional y
-          solo se podrán añadir a bibliotecas guardadas anteriormente en la base
-          de datos.
-        </p>
-        <p>
-          Esta página tendrá una opción para cambiar de usuario, y que,
-          dependiendo del usuario que esté loggeado en el momento, la
-          información que se muestra de los libros guardados sea distinta (dos
-          usuarios diferentes no tienen por qué querer leer los mismos libros)
-        </p>
+        <p>Tamaño total: <span id="tamaño">0</span></p>
+        <div id="nombres"></div>
       </div>
     </section>
     <footer>
