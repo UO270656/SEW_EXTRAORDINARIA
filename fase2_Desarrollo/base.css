@@ -94,3 +94,8 @@ div {
   width: 50%;
   height: 50%;
 }
+/*Selector specificity (1,0,0)*/
+#enviarCorreo {
+  color: rgb(255, 129, 0);
+  background-color: transparent;
+}
