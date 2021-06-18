@@ -1,13 +1,11 @@
 <!ELEMENT libros (libro+)>
-<!ELEMENT libro  (fecha_publicacion, paginas, editorial, descripcion, target, autor, tiendas, recomendacion, bibliotecas)>
+<!ELEMENT libro  (fecha_publicacion, paginas, editorial, descripcion, target, autor, recomendacion, bibliotecas)>
 <!ELEMENT fecha_publicacion (#PCDATA)>
 <!ELEMENT paginas (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT target (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
-<!ELEMENT tiendas (tienda+)>
-<!ELEMENT tienda (#PCDATA)>
 <!ELEMENT recomendacion (#PCDATA)>
 <!ELEMENT bibliotecas (biblioteca+)>
 <!ELEMENT biblioteca (long_biblioteca, lat_biblioteca, alt_biblioteca)>
