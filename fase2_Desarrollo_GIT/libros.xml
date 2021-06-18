@@ -9,6 +9,8 @@
     <target>+6</target>
     <autor>Tomi Adeyemi</autor>
     <recomendacion>7</recomendacion>
+    <isbn>9788427213470</isbn>
+    <portada>https://www.rbalibros.com/medio/2020/02/08/hijos-de-virtud-y-venganza_aab90285_500x763.jpg</portada>
     <bibliotecas>
       <biblioteca nombre="Sán Lázaro"> 
         <long_biblioteca>43.353091075300554</long_biblioteca>
@@ -35,6 +37,8 @@
     <target>+12</target>
     <autor>Neal Shusterman</autor>
     <recomendacion>9</recomendacion>
+    <isbn>9788417834616</isbn>
+    <portada>https://imagessl6.casadellibro.com/a/l/t7/16/9788417834616.jpg</portada>
     <bibliotecas>
       <biblioteca nombre="Ramón Pérez Ayala">
         <long_biblioteca>43.3595540241098</long_biblioteca>
@@ -62,6 +66,8 @@
     <target>+16</target>
     <autor>Jay Asher</autor>
     <recomendacion>6</recomendacion>
+    <isbn>9788416588459</isbn>
+    <portada>https://imagessl9.casadellibro.com/a/l/t7/59/9788416588459.jpg</portada>
     <bibliotecas>
       <biblioteca nombre="Pumarín">
         <long_biblioteca>43.37061439491936</long_biblioteca>

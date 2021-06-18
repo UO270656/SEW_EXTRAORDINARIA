@@ -17,6 +17,8 @@
         <xs:element ref="target" />
         <xs:element name="autor" />
         <xs:element ref="recomendacion" />
+        <xs:element ref="isbn" />
+        <xs:element ref="portada" />
         <xs:element ref="bibliotecas" />
       </xs:sequence>
       <xs:attribute name="nombre" type="xs:string" use="required" />
@@ -31,6 +33,8 @@
   <xs:element name="target" type="xs:string" />
   <xs:element name="autor" type="xs:string" />
   <xs:element name="recomendacion" type="xs:int" />
+  <xs:element name="isbn" type="xs:string" />
+  <xs:element name="portada" type="xs:string" />
   <xs:element name="bibliotecas">
     <xs:complexType>
       <xs:sequence>

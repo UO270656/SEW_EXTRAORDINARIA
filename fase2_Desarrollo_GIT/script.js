@@ -37,6 +37,8 @@ class Documento {
                         var target = $('target', this).text();
                         var autor = $('autor', this).text();
                         var recomendacion = $('recomendacion', this).text();
+                        var isbn = $('isbn', this).text();
+                        var portada = $('portada', this).text();
 
                         stringDatos += "<ul>";
                         stringDatos += "<li>Nombre: " + nombre + "</li>";
@@ -48,7 +50,9 @@ class Documento {
                         stringDatos += "<li>Descripcion: " + descripcion + "</li>";
                         stringDatos += "<li>Target: " + target + "</li>";
                         stringDatos += "<li>Autor: " + autor + "</li>";
-                        stringDatos += "<li>Recomendacion: " + recomendacion + "</li></ul>";
+                        stringDatos += "<li>Recomendacion: " + recomendacion + "</li>";
+                        stringDatos += "<li>ISBN: " + isbn + "</li>";
+                        stringDatos += "<li>Portada: <img src=" + portada + " alt='portada_" + nombre + "/></li></ul>";
                     });
 
                     document.getElementById("nombres").innerHTML = stringDatos;
