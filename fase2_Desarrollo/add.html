@@ -9,11 +9,9 @@
     <link rel="stylesheet" type="text/css" href="base.css" />
     <base href="" />
     <!-- añadir el repositorio.io -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="script.js"></script>
   </head>
 
-  <body onload="documento.cargarArchivos()">
+  <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
     <header>
       <h1 class="principal">
@@ -43,20 +41,8 @@
       </nav>
     </header>
     <section>
-      <h2>Libros en XML</h2>
-      <div>
-        <label for="subirArchivos">Selecione archivos xml para validar</label>
-        <p>
-          <input
-            id="subirArchivos"
-            type="file"
-            name="Elegir archivos"
-            onchange="documento.cargarArchivos()"
-          />
-        </p>
-        <p>Tamaño total: <span id="tamaño">0</span></p>
-        <div id="nombres"></div>
-      </div>
+      <h2>Agregar datos</h2>
+      <div></div>
     </section>
     <footer>
       <p id="credits">Copyright @2021 UO270656</p>
