@@ -84,7 +84,7 @@
                             </div>
                             <div class='form-element'>
                                 <label for='password'>Password</label>
-                                <input type='password' name='password' required />
+                                <input id='password' type='password' name='password' required />
                             </div>
                             <button type='submit' name='register' value='register'>Register</button>
                         </form>
