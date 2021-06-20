@@ -36,7 +36,7 @@ class Documento {
                 stringDatos += "<li>Last Week: " + lastWeekRank + "</li>";
                 stringDatos += "<li>Weeks on list: " + weeksOnList + "</li>";
                 stringDatos += "<li>ISBN: " + bookInfo.primary_isbn13 + "</li>";
-                stringDatos += "<li>Portada: <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/387928/book%20placeholder.png' alt='portada_" + bookInfo.title + "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li></ul>"
+                stringDatos += "<li>Portada: <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/387928/book%20placeholder.png' alt='portada_" + bookInfo.primary_isbn13 + "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li></ul>"
                 $('#libros').append(stringDatos);
                 $('#' + book.rank).attr('nyt-rank', book.rank);
             });
