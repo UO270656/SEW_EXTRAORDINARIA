@@ -5,8 +5,8 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Booksew - Inicio</title>
-    <meta name="Booksew" content="Inicio de la página web Booksew" />
+    <title>Booksew-Agregar</title>
+    <meta name="Booksew" content="Agregar de la página web Booksew" />
     <link rel="stylesheet" type="text/css" href="base.css" />
     <base href="" />
 </head>

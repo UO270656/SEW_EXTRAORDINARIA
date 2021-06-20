@@ -5,8 +5,8 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Booksew - Inicio</title>
-    <meta name="Booksew" content="Inicio de la página web Booksew" />
+    <title>Booksew-Bibliotecas</title>
+    <meta name="Booksew" content="Bibliotecas de la página web Booksew" />
     <link rel="stylesheet" type="text/css" href="base.css" />
     <base href="" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
