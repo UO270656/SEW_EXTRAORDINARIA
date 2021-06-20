@@ -1,0 +1,104 @@
+[
+  {
+    "nombre": "Hijos de Virtud y Venganza",
+    "tipo": "Fantasia",
+    "dificultad": "media",
+    "fecha_publicacion": "28/3/2020",
+    "paginas": "489",
+    "editorial": "RBA",
+    "descripcion": "La magia ha regresado al país de Orïsha... Pero la lucha por el poder no ha terminado. La guerra acaba de empezar.",
+    "target": "+6",
+    "autor": "Tomi Adeyemi",
+    "recomendacion": "7",
+    "isbn": "9788427213470",
+    "portada": "https://www.rbalibros.com/medio/2020/02/08/hijos-de-virtud-y-venganza_aab90285_500x763.jpg",
+    "bibliotecas": [
+      {
+        "nombre": "Sán Lázaro",
+        "long_biblioteca": "43.353091075300554",
+        "lat_biblioteca": "-5.841920397615947",
+        "alt_biblioteca": "300"
+      },
+      {
+        "nombre": "Pumarín",
+        "long_biblioteca": "43.37061439491936",
+        "lat_biblioteca": "-5.841029851391064",
+        "alt_biblioteca": "220"
+      },
+      {
+        "nombre": "La corredoria",
+        "long_biblioteca": "43.38364069596293",
+        "lat_biblioteca": "-5.825038743422987",
+        "alt_biblioteca": "190"
+      }
+    ]
+  },
+  {
+    "nombre": "Trueno",
+    "tipo": "Distopía",
+    "dificultad": "media",
+    "fecha_publicacion": "26/7/2020",
+    "paginas": "721",
+    "editorial": "Nocturna",
+    "descripcion": "Todo cambió hace tres años: fue entonces cuando Anastasia y Lucifer desaparecieron; cuando el segador Goddard llegó al poder; cuando el Nimbo retiró la palabra a toda la humanidad, menos a Grayson Tolliver.",
+    "target": "+12",
+    "autor": "Neal Shusterman",
+    "recomendacion": "9",
+    "isbn": "9788417834616",
+    "portada": "https://imagessl6.casadellibro.com/a/l/t7/16/9788417834616.jpg",
+    "bibliotecas": [
+      {
+        "nombre": "Ramón Pérez Ayala",
+        "long_biblioteca": "43.3595540241098",
+        "lat_biblioteca": "-5.846433816577243",
+        "alt_biblioteca": "250"
+      },
+      {
+        "nombre": "Sán Lázaro",
+        "long_biblioteca": "43.353091075300554",
+        "lat_biblioteca": "-5.841920397615947",
+        "alt_biblioteca": "300"
+      },
+      {
+        "nombre": "José María Laso Prieto",
+        "long_biblioteca": "43.36923568259655",
+        "lat_biblioteca": "-5.826436385704373",
+        "alt_biblioteca": "190"
+      }
+    ]
+  },
+  {
+    "nombre": "Por trece razones",
+    "tipo": "Drama",
+    "dificultad": "baja",
+    "fecha_publicacion": "20/3/2007",
+    "paginas": "301",
+    "editorial": "Nube de tinta",
+    "descripcion": "Una caja, trece caras de casete, trece culpables y una víctima",
+    "target": "+16",
+    "autor": "Jay Asher",
+    "recomendacion": "6",
+    "isbn": "9788416588459",
+    "portada": "https://imagessl9.casadellibro.com/a/l/t7/59/9788416588459.jpg",
+    "bibliotecas": [
+      {
+        "nombre": "Pumarín",
+        "long_biblioteca": "43.37061439491936",
+        "lat_biblioteca": "-5.841029851391064",
+        "alt_biblioteca": "220"
+      },
+      {
+        "nombre": "La Granja",
+        "long_biblioteca": "43.36148734759308",
+        "lat_biblioteca": "-5.851424121346731",
+        "alt_biblioteca": "250"
+      },
+      {
+        "nombre": "Villa Magdalena",
+        "long_biblioteca": "43.36129621483267",
+        "lat_biblioteca": "-5.858768918006671",
+        "alt_biblioteca": "260"
+      }
+    ]
+  }
+]

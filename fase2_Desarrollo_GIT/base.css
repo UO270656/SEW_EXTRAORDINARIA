@@ -99,3 +99,35 @@ div {
   color: rgb(255, 129, 0);
   background-color: transparent;
 }
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:link {
+  color: rgb(255, 129, 0);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:visited {
+  color: rgb(255, 129, 0);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:focus {
+  border-bottom: 1px solid;
+  background: rgba(255, 152, 50, 0.555);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:hover {
+  border-bottom: 1px solid;
+  background: rgba(255, 152, 50, 0.555);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:active {
+  background: rgb(255, 129, 0);
+  color: rgb(252, 164, 76);
+}
+/*Selector specificity (1,0,0)*/
+#mapa {
+  height: 400px;
+  width: 100%;
+}
+/*Selector specificity (0,1,0)*/
+.hide {
+  display: none;
+}
