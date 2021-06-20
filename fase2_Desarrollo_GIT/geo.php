@@ -105,7 +105,7 @@
                     $imagenMapa = $url . $centro . $zoom . $tamaño . $marcador . $sensor . $apiKey;
                     echo "<ul>
                      <li>Nombre: " . $row['Nombre'] . "</li>
-                     <li>Ubicacion: <img src='" . $imagenMapa . "' id=' " . $row['ID_B'] . "' alt='biblioteca_" . $row['ID_B'] . "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li>
+                     <li>Ubicacion: <img src='" . $imagenMapa . "' id='" . $row['ID_B'] . "' alt='biblioteca_" . $row['ID_B'] . "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li>
                      </ul>";
                 }
                 echo "<div id='mapa'></div>";

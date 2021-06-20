@@ -191,7 +191,7 @@
             $_SESSION['base'] = $base;
         }
         if (isset($_SESSION['username'])) {
-            echo '<script type="text/javascript">
+            echo '<script>
             alert("Se ha iniciado como ' . $_SESSION['username'] . '");
             </script>';
             $_SESSION['username'] = null;

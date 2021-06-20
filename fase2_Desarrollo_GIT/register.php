@@ -128,7 +128,7 @@
                     header("Location: login.php");
                     die();
                 } else {
-                    echo '<script type="text/javascript">
+                    echo '<script>
                             alert("Error al registrar el usuario");
                         </script>';
                 }

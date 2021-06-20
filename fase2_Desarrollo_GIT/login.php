@@ -128,7 +128,7 @@
             $base->iniciar();
         }
         if (isset($_SESSION['registrado'])) {
-            echo '<script type="text/javascript">
+            echo '<script>
             alert("Usuario ' . $_SESSION['registrado'] . ' registrado");
             </script>';
             $_SESSION['registrado'] = null;
