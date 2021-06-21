@@ -138,6 +138,8 @@ input {
 /*Selector specificity (0,0,1)*/
 button {
   font: 400 25px Tahoma;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 /*Selector specificity (0,0,1)*/
 select {
