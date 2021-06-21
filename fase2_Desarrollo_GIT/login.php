@@ -81,13 +81,13 @@
                         <form method='post' action='' name='signin-form'>
                             <div class='form-element'>
                                 <label for='username'>Username</label>
-                                <input id='username' type='text' name='username' pattern='[a-zA-Z0-9]+' required />
+                                <p><input id='username' type='text' name='username' pattern='[a-zA-Z0-9]+' required /></p>
                             </div>
                             <div class='form-element'>
                                 <label for='password'>Password</label>
-                                <input id='password' type='password' name='password' required />
+                                <p><input id='password' type='password' name='password' required /></p>
                             </div>
-                            <button type='submit' name='login' value='login'>Log In</button>
+                            <p><button type='submit' name='login' value='login'>Log In</button></p>
                         </form>
                     </div>";
                 } else {

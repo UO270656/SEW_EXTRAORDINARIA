@@ -93,12 +93,12 @@
         echo "
         <div>
           <label for='libros'>Escoge un libro:</label>
-          <select onchange='documento.cambiarLibro()' name='libros' id='libros'>";
+          <p><select onchange='documento.cambiarLibro()' name='libros' id='libros'>";
         $consultaPre = $this->db->query("SELECT * FROM libros WHERE ID_U = " . $_SESSION["user_id"]);
         while ($row = $consultaPre->fetch_assoc()) {
           echo " <option value='" . $row["ID_L"] . "'>" . $row["Nombre"] . "</option>";
         }
-        echo "</select>";
+        echo "</select></p>";
         $this->db = new mysqli($this->servername, $this->username, $this->password, $this->database);
         $consultaPre = $this->db->query("SELECT * FROM libros WHERE ID_U = " . $_SESSION["user_id"]);
         echo "<div id='nombres'>";
