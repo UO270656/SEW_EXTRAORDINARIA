@@ -1,0 +1,145 @@
+/*Selector specificity (0,0,1)*/
+body {
+  font-size: 25px;
+  font-family: Tahoma, serif;
+  line-height: 1.8;
+  color: rgb(255, 220, 230);
+  background-color: rgb(33, 37, 64);
+  height: 100%;
+}
+/*Selector specificity (0,1,1)*/
+h1.principal {
+  color: rgb(255, 220, 230);
+  background-color: rgb(33, 37, 64);
+  margin: 0;
+  text-align: center;
+  padding: 5px 25px;
+  text-transform: uppercase;
+}
+/*Selector specificity (0,0,1)*/
+h2 {
+  background-color: rgb(1, 32, 32);
+  color: rgb(255, 220, 230);
+  text-transform: uppercase;
+  padding: 30px 25px;
+  text-align: center;
+  margin: 0%;
+}
+/*Selector specificity (0,0,1)*/
+ol {
+  list-style: none;
+}
+/*Selector specificity (0,0,3)*/
+ol li::before {
+  content: "\2022\ ";
+  color: darkslategrey;
+  background-color: rgb(33, 37, 64);
+}
+
+/*Selector specificity (0,1,1)*/
+.menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+/*Selector specificity (0,1,1)*/
+.menu a {
+  display: block;
+  padding: 2em;
+  background-color: rgb(255, 220, 230);
+  text-align: center;
+  text-decoration: none;
+  color: #191c26;
+  text-transform: uppercase;
+}
+/*Selector specificity (0,2,1)*/
+.menu a:hover {
+  color: rgb(119, 0, 0);
+  background-color: rgb(255, 220, 230);
+  text-align: center;
+  text-transform: uppercase;
+}
+/*Selector specificity (0,0,1)*/
+nav {
+  align-self: center;
+  width: 100%;
+}
+/*Selector specificity (0,1,1)*/
+.menu li {
+  width: 34%;
+}
+/*Selector specificity (0,0,1)*/
+div {
+  position: relative;
+}
+/*Selector specificity (1,0,0)*/
+#imagenIndex {
+  position: relative;
+  float: right;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/*Selector specificity (1,0,0)*/
+#credits {
+  line-height: 1.8;
+  color: rgb(255, 129, 0);
+  background-color: transparent;
+}
+/*Selector specificity (1,0,0)*/
+#logo {
+  background-color: transparent;
+  width: 50%;
+  height: 50%;
+}
+/*Selector specificity (1,0,0)*/
+#enviarCorreo {
+  color: rgb(255, 129, 0);
+  background-color: transparent;
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:link {
+  color: rgb(255, 129, 0);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:visited {
+  color: rgb(255, 129, 0);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:focus {
+  border-bottom: 1px solid;
+  background: rgba(255, 152, 50, 0.555);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:hover {
+  border-bottom: 1px solid;
+  background: rgba(255, 152, 50, 0.555);
+}
+/*Selector specificity (0,1,2)*/
+.enlaceTitulo:active {
+  background: rgb(255, 129, 0);
+  color: rgb(252, 164, 76);
+}
+/*Selector specificity (1,0,0)*/
+#mapa {
+  height: 400px;
+  width: 100%;
+}
+/*Selector specificity (0,1,0)*/
+.hide {
+  display: none;
+}
+/*Selector specificity (0,0,1)*/
+input {
+  font: 400 25px Tahoma;
+}
+/*Selector specificity (0,0,1)*/
+button {
+  font: 25px Tahoma;
+}
+/*Selector specificity (0,0,1)*/
+select {
+  font: 400 25px Tahoma;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/SEW/fase2_Desarrollo/geo.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <title>Booksew-Bibliotecas</title>
+    <meta name="Booksew" content="Bibliotecas de la página web Booksew">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/base.css">
+    <!--<base href="">--><base href=".">
+    <script src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/jquery.min.js.descargar"></script>
+    <script src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/scriptGEO.js.descargar"></script>
+    <script async="" defer="" src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/js"></script>
+<script type="text/javascript" charset="UTF-8" src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/common.js.descargar"></script><script type="text/javascript" charset="UTF-8" src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/util.js.descargar"></script><script type="text/javascript" charset="UTF-8" src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/AuthenticationService.Authenticate"></script></head>
+
+<body onload="documento.initMap()">
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1 class="principal">
+            <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/logo.png" id="logo" alt="Logo de la página web">
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a id="add" href="http://localhost/SEW/fase2_Desarrollo/add.php">Agregar datos</a>
+                </li>
+                <li>
+                    <a id="get" href="http://localhost/SEW/fase2_Desarrollo/get.php">Ver colección</a>
+                </li>
+                <li>
+                    <a id="nyt" href="http://localhost/SEW/fase2_Desarrollo/nyt.html">Ver BestSellers</a>
+                </li>
+                <li>
+                    <a id="geo" href="http://localhost/SEW/fase2_Desarrollo/geo.php">Ver Bibliotecas</a>
+                </li>
+                <li>
+                    <a id="xml" href="http://localhost/SEW/fase2_Desarrollo/xml.html">Validar libros</a>
+                </li>
+                <li>
+                    <a id="logout" href="http://localhost/SEW/fase2_Desarrollo/logout.php">Log out</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Ver Bibliotecas</h2>
+        <div id="bibliotecas">
+        </div>
+        <ul>
+                     <li>Nombre: Sán Lázaro</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap" id="1" alt="biblioteca_1" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: Pumarín</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(1)" id="2" alt="biblioteca_2" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: La corredoria</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(2)" id="3" alt="biblioteca_3" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: Ramón Pérez Ayala</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(3)" id="4" alt="biblioteca_4" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: Sán Lázaro</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap" id="5" alt="biblioteca_5" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: José María Laso Prieto</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(4)" id="6" alt="biblioteca_6" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: Pumarín</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(1)" id="7" alt="biblioteca_7" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: La Granja</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(5)" id="8" alt="biblioteca_8" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul><ul>
+                     <li>Nombre: Villa Magdalena</li>
+                     <li>Ubicacion: <img src="./Booksew-BibliotecasConJsDeMapaGoogleMaps_files/staticmap(6)" id="9" alt="biblioteca_9" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li>
+                     </ul>    </section>
+    <footer>
+        <p id="credits">Copyright @2021 UO270656</p>
+    </footer>
+
+
+</body></html>
