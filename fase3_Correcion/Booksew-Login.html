@@ -5,6 +5,7 @@
     
     <title>Booksew-Login</title>
     <meta name="Booksew" content="Login de la página web Booksew">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./Booksew-Login_files/base.css">
     <!--<base href="">--><base href=".">
 </head>
@@ -43,13 +44,13 @@
                         <form method="post" action="http://localhost/SEW/fase2_Desarrollo/login.php" name="signin-form">
                             <div class="form-element">
                                 <label for="username">Username</label>
-                                <input id="username" type="text" name="username" pattern="[a-zA-Z0-9]+" required="">
+                                <p><input id="username" type="text" name="username" pattern="[a-zA-Z0-9]+" required=""></p>
                             </div>
                             <div class="form-element">
                                 <label for="password">Password</label>
-                                <input id="password" type="password" name="password" required="">
+                                <p><input id="password" type="password" name="password" required=""></p>
                             </div>
-                            <button type="submit" name="login" value="login">Log In</button>
+                            <p><button type="submit" name="login" value="login">Log In</button></p>
                         </form>
                     </div>    </section>
     <footer>
