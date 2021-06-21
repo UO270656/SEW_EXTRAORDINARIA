@@ -7,6 +7,7 @@
     <meta charset="UTF-8" />
     <title>Booksew-Registrarse</title>
     <meta name="Booksew" content="Registrarse de la página web Booksew" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="base.css" />
     <base href="" />
 </head>
