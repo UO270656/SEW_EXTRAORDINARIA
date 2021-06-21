@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost/SEW/fase2_Desarrollo/xml.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <title>Booksew-Validador</title>
+    <meta name="Booksew" content="Validador de la página web Booksew">
+    <link rel="stylesheet" type="text/css" href="./Booksew-Validador_files/base.css">
+    <!--<base href="">--><base href=".">
+    <!-- añadir el repositorio.io -->
+    <script src="./Booksew-Validador_files/jquery.min.js.descargar"></script>
+    <script src="./Booksew-Validador_files/scriptXML.js.descargar"></script>
+  </head>
+
+  <body onload="documento.cargarArchivos()">
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+      <h1 class="principal">
+        <img src="./Booksew-Validador_files/logo.png" id="logo" alt="Logo de la página web">
+      </h1>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a id="add" href="http://localhost/SEW/fase2_Desarrollo/add.php">Agregar datos</a>
+          </li>
+          <li>
+            <a id="get" href="http://localhost/SEW/fase2_Desarrollo/get.php">Ver colección</a>
+          </li>
+          <li>
+            <a id="nyt" href="http://localhost/SEW/fase2_Desarrollo/nyt.html">Ver BestSellers</a>
+          </li>
+          <li>
+            <a id="geo" href="http://localhost/SEW/fase2_Desarrollo/geo.php">Ver Bibliotecas</a>
+          </li>
+          <li>
+            <a id="xml" href="http://localhost/SEW/fase2_Desarrollo/xml.html">Validar libros</a>
+          </li>
+          <li>
+            <a id="logout" href="http://localhost/SEW/fase2_Desarrollo/logout.php">Log out</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Libros en XML</h2>
+      <div>
+        <label for="subirArchivos">Selecione archivos xml para validar</label>
+        <p>
+          <input id="subirArchivos" type="file" name="Elegir archivos" onchange="documento.cargarArchivos()">
+        </p>
+        <p>Tamaño total: <span id="tamaño">0 bytes</span></p>
+        <div id="nombres"></div>
+      </div>
+    </section>
+    <footer>
+      <p id="credits">Copyright @2021 UO270656</p>
+    </footer>
+  
+
+</body></html>

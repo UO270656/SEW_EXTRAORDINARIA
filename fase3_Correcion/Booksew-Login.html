@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://localhost/SEW/fase2_Desarrollo/login.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <title>Booksew-Login</title>
+    <meta name="Booksew" content="Login de la página web Booksew">
+    <link rel="stylesheet" type="text/css" href="./Booksew-Login_files/base.css">
+    <!--<base href="">--><base href=".">
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1 class="principal">
+            <img src="./Booksew-Login_files/logo.png" id="logo" alt="Logo de la página web">
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a id="inicio" href="http://localhost/SEW/fase2_Desarrollo/inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a id="about" href="http://localhost/SEW/fase2_Desarrollo/about.html">Sobre el autor</a>
+                </li>
+                <li>
+                    <a id="faq" href="http://localhost/SEW/fase2_Desarrollo/faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a id="login" href="http://localhost/SEW/fase2_Desarrollo/login.php">Sign in</a>
+                </li>
+                <li>
+                    <a id="register" href="http://localhost/SEW/fase2_Desarrollo/register.php">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Iniciar sesión</h2>
+
+        
+                    <div>
+                        <form method="post" action="http://localhost/SEW/fase2_Desarrollo/login.php" name="signin-form">
+                            <div class="form-element">
+                                <label for="username">Username</label>
+                                <input id="username" type="text" name="username" pattern="[a-zA-Z0-9]+" required="">
+                            </div>
+                            <div class="form-element">
+                                <label for="password">Password</label>
+                                <input id="password" type="password" name="password" required="">
+                            </div>
+                            <button type="submit" name="login" value="login">Log In</button>
+                        </form>
+                    </div>    </section>
+    <footer>
+        <p id="credits">Copyright @2021 UO270656</p>
+    </footer>
+
+
+</body></html>

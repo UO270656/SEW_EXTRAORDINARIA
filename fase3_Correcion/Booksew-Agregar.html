@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/SEW/fase2_Desarrollo/add.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <title>Booksew-Agregar</title>
+    <meta name="Booksew" content="Agregar de la página web Booksew">
+    <link rel="stylesheet" type="text/css" href="./Booksew-Agregar_files/base.css">
+    <!--<base href="">--><base href=".">
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1 class="principal">
+            <img src="./Booksew-Agregar_files/logo.png" id="logo" alt="Logo de la página web">
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a id="add" href="http://localhost/SEW/fase2_Desarrollo/add.php">Agregar datos</a>
+                </li>
+                <li>
+                    <a id="get" href="http://localhost/SEW/fase2_Desarrollo/get.php">Ver colección</a>
+                </li>
+                <li>
+                    <a id="nyt" href="http://localhost/SEW/fase2_Desarrollo/nyt.html">Ver BestSellers</a>
+                </li>
+                <li>
+                    <a id="geo" href="http://localhost/SEW/fase2_Desarrollo/geo.php">Ver Bibliotecas</a>
+                </li>
+                <li>
+                    <a id="xml" href="http://localhost/SEW/fase2_Desarrollo/xml.html">Validar libros</a>
+                </li>
+                <li>
+                    <a id="logout" href="http://localhost/SEW/fase2_Desarrollo/logout.php">Log out</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Agregar datos</h2>
+                <div>
+            <form method="post" action="http://localhost/SEW/fase2_Desarrollo/add.php" name="add_form">
+                <div class="form-element">
+                    <label for="subirArchivos">Selecione archivos JSON para añadir datos</label>
+                    <input id="subirArchivos" type="file" name="enviarArchivo" required="">
+                </div>
+                <button type="submit" name="login" value="login">Añadir</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p id="credits">Copyright @2021 UO270656</p>
+    </footer>
+
+
+</body></html>

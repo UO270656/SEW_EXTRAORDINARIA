@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/SEW/fase2_Desarrollo/get.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Datos que describen el documento -->
+  
+  <title>Booksew-Coleccion</title>
+  <meta name="Booksew" content="Coleccion de la página web Booksew">
+  <link rel="stylesheet" type="text/css" href="./Booksew-Coleccion2_files/base.css">
+  <!--<base href="">--><base href=".">
+  <!-- añadir el repositorio.io -->
+  <script src="./Booksew-Coleccion2_files/jquery.min.js.descargar"></script>
+  <script src="./Booksew-Coleccion2_files/scriptGET.js.descargar"></script>
+</head>
+
+<body>
+  <!-- Datos con el contenidos que aparece en el navegador -->
+  <header>
+    <h1 class="principal">
+      <img src="./Booksew-Coleccion2_files/logo.png" id="logo" alt="Logo de la página web">
+    </h1>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a id="add" href="http://localhost/SEW/fase2_Desarrollo/add.php">Agregar datos</a>
+        </li>
+        <li>
+          <a id="get" href="http://localhost/SEW/fase2_Desarrollo/get.php">Ver colección</a>
+        </li>
+        <li>
+          <a id="nyt" href="http://localhost/SEW/fase2_Desarrollo/nyt.html">Ver BestSellers</a>
+        </li>
+        <li>
+          <a id="geo" href="http://localhost/SEW/fase2_Desarrollo/geo.php">Ver Bibliotecas</a>
+        </li>
+        <li>
+          <a id="xml" href="http://localhost/SEW/fase2_Desarrollo/xml.html">Validar libros</a>
+        </li>
+        <li>
+          <a id="logout" href="http://localhost/SEW/fase2_Desarrollo/logout.php">Log out</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>Ver colección</h2>
+    
+        <div>
+          <label for="libros">Escoge un libro:</label>
+          <select onchange="documento.cambiarLibro()" name="libros" id="libros"> <option value="1">Hijos de Virtud y Venganza</option> <option value="2">Trueno</option> <option value="3">Por trece razones</option></select><div id="nombres"><div class="hide" id="div_1"><ul>
+          <li>Nombre: Hijos de Virtud y Venganza</li><li>Tipo: Fantasia</li><li>Dificultad: media</li><li>Publicacion: 28/3/2020</li><li>Nº paginas: 489</li><li>Editorial: RBA</li><li>Descripcion: La magia ha regresado al país de Orïsha... Pero la lucha por el poder no ha terminado. La guerra acaba de empezar.</li><li>Target: +6</li><li>Autor: Tomi Adeyemi</li><li>Recomendacion: 7</li><li>ISBN: 9788427213470</li><li>Portada: <img src="./Booksew-Coleccion2_files/hijos-de-virtud-y-venganza_aab90285_500x763.jpg" alt="portada_1" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li></ul></div><div class="hide" id="div_2" style="display: block;"><ul>
+          <li>Nombre: Trueno</li><li>Tipo: Distopía</li><li>Dificultad: media</li><li>Publicacion: 26/7/2020</li><li>Nº paginas: 721</li><li>Editorial: Nocturna</li><li>Descripcion: Todo cambió hace tres años: fue entonces cuando Anastasia y Lucifer desaparecieron; cuando el segador Goddard llegó al poder; cuando el Nimbo re</li><li>Target: +12</li><li>Autor: Neal Shusterman</li><li>Recomendacion: 9</li><li>ISBN: 9788417834616</li><li>Portada: <img src="./Booksew-Coleccion2_files/9788417834616.jpg" alt="portada_2" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li></ul></div><div class="hide" id="div_3"><ul>
+          <li>Nombre: Por trece razones</li><li>Tipo: Drama</li><li>Dificultad: baja</li><li>Publicacion: 20/3/2007</li><li>Nº paginas: 301</li><li>Editorial: Nube de tinta</li><li>Descripcion: Una caja, trece caras de casete, trece culpables y una víctima</li><li>Target: +16</li><li>Autor: Jay Asher</li><li>Recomendacion: 6</li><li>ISBN: 9788416588459</li><li>Portada: <img src="./Booksew-Coleccion2_files/9788416588459.jpg" alt="portada_3" onkeypress="documento.cambiarFoco(this)" onclick="documento.cambiarFoco(this)"></li></ul></div></div>
+        </div>  </section>
+  <footer>
+    <p id="credits">Copyright @2021 UO270656</p>
+  </footer>
+
+
+</body></html>
