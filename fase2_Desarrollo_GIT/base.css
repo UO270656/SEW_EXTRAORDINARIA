@@ -1,6 +1,6 @@
 /*Selector specificity (0,0,1)*/
 body {
-  font-size: 14px;
+  font-size: 25px;
   font-family: Tahoma, serif;
   line-height: 1.8;
   color: rgb(255, 220, 230);
@@ -130,4 +130,12 @@ div {
 /*Selector specificity (0,1,0)*/
 .hide {
   display: none;
+}
+/*Selector specificity (0,0,1)*/
+input {
+  font: 400 25px Tahoma;
+}
+/*Selector specificity (0,0,1)*/
+button {
+  font: 400 25px Tahoma;
 }
