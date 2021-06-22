@@ -211,7 +211,7 @@
             <p>Una vez escogido, pulse el botón de "Añadir" para agregar los datos</p>
             <form method='post' action='' name='add_form'>
                 <div class='form-element'>
-                    <label for="subirArchivos"></label>
+                    <label for="subirArchivos">Archivo</label>
                     <input id='subirArchivos' type='file' name='enviarArchivo' required />
                 </div>
                 <button type='submit' name='login' value='login'>Añadir</button>
