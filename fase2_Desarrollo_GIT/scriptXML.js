@@ -42,6 +42,7 @@ class Documento {
 
                         stringDatos += "<ul>";
                         stringDatos += "<li>Nombre: " + nombre + "</li>";
+                        stringDatos += "<li><img src='" + portada + "' alt='portada_" + nombre + "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li>";
                         stringDatos += "<li>Tipo: " + tipo + "</li>";
                         stringDatos += "<li>Dificultad: " + dificultad + "</li>";
                         stringDatos += "<li>Publicacion: " + publicacion + "</li>";
@@ -52,7 +53,7 @@ class Documento {
                         stringDatos += "<li>Autor: " + autor + "</li>";
                         stringDatos += "<li>Recomendacion: " + recomendacion + "</li>";
                         stringDatos += "<li>ISBN: " + isbn + "</li>";
-                        stringDatos += "<li>Portada: <img src='" + portada + "' alt='portada_" + nombre + "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li></ul>";
+                        stringDatos += "</ul>";
 
                         document.getElementById("nombres").innerHTML += stringDatos;
                     });

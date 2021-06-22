@@ -30,10 +30,10 @@
                     <a id="faq" href="faq.html">FAQ</a>
                 </li>
                 <li>
-                    <a id="login" href="login.php">Sign in</a>
+                    <a id="login" href="login.php">Identificarse</a>
                 </li>
                 <li>
-                    <a id="register" href="register.php">Register</a>
+                    <a id="register" href="register.php">Registrarse</a>
                 </li>
             </ul>
         </nav>
@@ -80,11 +80,11 @@
                     <div>
                         <form method='post' action='' name='register-form'>
                             <div class='form-element'>
-                                <label for='username'>Username</label>
-                                <p><input id='username' type='text' name='username' pattern='[a-zA-Z0-9]+' required /></p>
+                                <label for='username'>Username (Cadena de letras y numeros sin espacios')</label>
+                                <p><input id='username' type='text' name='username' pattern='[a-zA-Z0-9]+' required/></p>
                             </div>
                             <div class='form-element'>
-                                <label for='password'>Password</label>
+                                <label for='password'>Password (Cadena de cualquier caracter')</label>
                                 <p><input id='password' type='password' name='password' required /></p>
                             </div>
                             <p><button type='submit' name='register' value='register'>Register</button></p>
@@ -124,14 +124,13 @@
 
                 $consultaPre->execute();
                 if ($consultaPre->affected_rows > 0) {
+                    $_SESSION['user_id'] = $newID;
+                    $_SESSION['username'] = $_POST["username"];
                     $consultaPre->close();
-                    $_SESSION['registrado'] = $_POST["username"];
-                    header("Location: login.php");
+                    header("Location: add.php");
                     die();
                 } else {
-                    echo '<script>
-                            alert("Error al registrar el usuario");
-                        </script>';
+                    echo "<p>Error al registrar el usuario</p>";
                 }
                 $this->db->close();
             }

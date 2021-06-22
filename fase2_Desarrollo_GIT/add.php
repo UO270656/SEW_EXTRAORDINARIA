@@ -24,7 +24,7 @@
                     <a id="add" href="add.php">Agregar datos</a>
                 </li>
                 <li>
-                    <a id="get" href="get.php">Ver colección</a>
+                    <a id="get" href="get.php">Ver libros guardados</a>
                 </li>
                 <li>
                     <a id="nyt" href="nyt.html">Ver BestSellers</a>
@@ -36,7 +36,7 @@
                     <a id="xml" href="xml.html">Validar libros</a>
                 </li>
                 <li>
-                    <a id="logout" href="logout.php">Log out</a>
+                    <a id="logout" href="logout.php">Cerrar sesión</a>
                 </li>
             </ul>
         </nav>
@@ -206,9 +206,12 @@
         }
         ?>
         <div>
+            <p>Utilice el boton de "Elegir archivo" para escoger el archivo JSON con los datos que desea
+                añadir a su colección de libros</p>
+            <p>Una vez escogido, pulse el botón de "Añadir" para agregar los datos</p>
             <form method='post' action='' name='add_form'>
                 <div class='form-element'>
-                    <label for="subirArchivos">Selecione archivos JSON para añadir datos</label>
+                    <label for="subirArchivos"></label>
                     <input id='subirArchivos' type='file' name='enviarArchivo' required />
                 </div>
                 <button type='submit' name='login' value='login'>Añadir</button>
