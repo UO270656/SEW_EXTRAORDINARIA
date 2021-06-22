@@ -137,5 +137,9 @@ input {
 }
 /*Selector specificity (0,0,1)*/
 button {
+  font: 25px Tahoma;
+}
+/*Selector specificity (0,0,1)*/
+select {
   font: 400 25px Tahoma;
 }
