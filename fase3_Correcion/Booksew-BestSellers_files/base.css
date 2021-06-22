@@ -29,13 +29,6 @@ h2 {
 ol {
   list-style: none;
 }
-/*Selector specificity (0,0,3)*/
-ol li::before {
-  content: "\2022\ ";
-  color: darkslategrey;
-  background-color: rgb(33, 37, 64);
-}
-
 /*Selector specificity (0,1,1)*/
 .menu ul {
   display: flex;

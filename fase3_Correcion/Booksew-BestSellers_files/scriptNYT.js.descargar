@@ -28,6 +28,7 @@ class Documento {
                 var stringDatos = "";
                 stringDatos += "<ul>";
                 stringDatos += "<li><a href=" + book.amazon_product_url + " class='enlaceTitulo'>" + bookInfo.title + "</a></li>";
+                stringDatos += "<li><img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/387928/book%20placeholder.png' alt='portada_" + bookInfo.primary_isbn13 + "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li>"
                 stringDatos += "<li>Publicacion: " + book.published_date + "</li>";
                 stringDatos += "<li>Editorial: " + bookInfo.publisher + "</li>";
                 stringDatos += "<li>Descripcion: " + bookInfo.description + "</li>";
@@ -36,7 +37,7 @@ class Documento {
                 stringDatos += "<li>Last Week: " + lastWeekRank + "</li>";
                 stringDatos += "<li>Weeks on list: " + weeksOnList + "</li>";
                 stringDatos += "<li>ISBN: " + bookInfo.primary_isbn13 + "</li>";
-                stringDatos += "<li>Portada: <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/387928/book%20placeholder.png' alt='portada_" + bookInfo.primary_isbn13 + "' onkeypress='documento.cambiarFoco(this)' onclick='documento.cambiarFoco(this)'/></li></ul>"
+                stringDatos += "</ul>";
                 $('#libros').append(stringDatos);
                 $('#' + book.rank).attr('nyt-rank', book.rank);
             });

@@ -22,7 +22,7 @@
                     <a id="add" href="http://localhost/SEW/fase2_Desarrollo/add.php">Agregar datos</a>
                 </li>
                 <li>
-                    <a id="get" href="http://localhost/SEW/fase2_Desarrollo/get.php">Ver colección</a>
+                    <a id="get" href="http://localhost/SEW/fase2_Desarrollo/get.php">Ver libros guardados</a>
                 </li>
                 <li>
                     <a id="nyt" href="http://localhost/SEW/fase2_Desarrollo/nyt.html">Ver BestSellers</a>
@@ -34,17 +34,22 @@
                     <a id="xml" href="http://localhost/SEW/fase2_Desarrollo/xml.html">Validar libros</a>
                 </li>
                 <li>
-                    <a id="logout" href="http://localhost/SEW/fase2_Desarrollo/logout.php">Log out</a>
+                    <a id="logout" href="http://localhost/SEW/fase2_Desarrollo/logout.php">Cerrar sesión</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section>
         <h2>Agregar datos</h2>
-                <div>
+        <script>
+            alert("Se ha iniciado como prueba");
+            </script>        <div>
+            <p>Utilice el boton de "Elegir archivo" para escoger el archivo JSON con los datos que desea
+                añadir a su colección de libros</p>
+            <p>Una vez escogido, pulse el botón de "Añadir" para agregar los datos</p>
             <form method="post" action="http://localhost/SEW/fase2_Desarrollo/add.php" name="add_form">
                 <div class="form-element">
-                    <label for="subirArchivos">Selecione archivos JSON para añadir datos</label>
+                    <label for="subirArchivos"></label>
                     <input id="subirArchivos" type="file" name="enviarArchivo" required="">
                 </div>
                 <button type="submit" name="login" value="login">Añadir</button>
