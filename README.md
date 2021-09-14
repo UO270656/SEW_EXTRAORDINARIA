@@ -7,7 +7,12 @@ Este repositorio es el usado por el Raúl Alonso García para la realización de
 
 ## Resultados
 
-Todavía no se han obtenido resultados.
+Tras la evaluación del proyecto por parte de los profesores de la asignatura se obtuvo las siguientes calificaciones:
+
+  * En la parte practica se obtuvo un 7.5
+  * En la parte teorica un 9.7
+  
+Con esta convocatoria se aprobó la asignatura con una nota final de 7
 
 ## Enlaces a otras convocatorias
 
